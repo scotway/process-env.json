@@ -1,0 +1,14 @@
+{
+  "BOOL": true,
+  "STRING": "Hello World",
+  "NUMBER": 42,
+  "OBJECT": {
+    "first": "one",
+    "second": "two"
+  },
+  "ARRAY": [
+    "Yes",
+    "No",
+    "Maybe So"
+  ]
+}

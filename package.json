@@ -1,0 +1,38 @@
+{
+  "name": "process-env.json",
+  "version": "1.0.0",
+  "description": "Tiny library to load json file into process.env.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotway/process-env.json.git"
+  },
+  "keywords": [
+    "env",
+    "process",
+    "process.env",
+    "json",
+    "config"
+  ],
+  "author": "Scott Conway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotway/process-env.json/issues"
+  },
+  "homepage": "https://github.com/scotway/process-env.json#readme",
+  "dependencies": {
+    "jest": "^23.2.0"
+  }
+}
