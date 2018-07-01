@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "name": "app1",
+      "script": "index.js",
+      "cwd": "./app1",
+      "exec_mode": "cluster",
+      "watch": true,
+      "env": {
+        "PORT":"3333",
+        "MONGO_DB":"mongodb://127.0.0.1:27017/db"
+      }
+    },
+    {
+      "name": "app2",
+      "script": "index.js",
+      "cwd": "./app1",
+      "exec_mode": "cluster",
+      "watch": true,
+      "env": {
+        "PORT":"3444",
+        "MONGO_DB":"mongodb://127.0.0.1:27017/data"
+      }
+    },
+    {
+      "name": "app3",
+      "script": "index.js",
+      "cwd": "./app1",
+      "exec_mode": "cluster",
+      "watch": true,
+      "env": {
+        "PORT":"3555",
+        "MONGO_DB":"mongodb://127.0.0.1:27017/base"
+      }
+    }
+  ]
+}
