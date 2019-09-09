@@ -1,9 +1,9 @@
 const processEnvJSON = (filename = 'config.json', appIndex = 0) => {
   const fullParentPath = module.parent.filename;
-  const pathParts = fullParentPath.split('/');
+  const pathParts = fullParentPath.split(/\/|\\/i);
   pathParts.pop();
   const parentDirname = pathParts.join('/');
-  const config = require(`/${parentDirname}/${filename}`);
+  const config = require(`${parentDirname}/${filename}`);
 
   let values;
   if (config.apps) {
