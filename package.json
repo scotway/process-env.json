@@ -33,7 +33,7 @@
     "url": "https://github.com/scotway/process-env.json/issues"
   },
   "homepage": "https://github.com/scotway/process-env.json#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^23.2.0"
   }
 }
